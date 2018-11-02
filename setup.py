@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='PYLIQ',
-    version='1.0.0',
+    version='1.0.1',
     description='Free soil liquefaction analysis software from SPT data',
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
