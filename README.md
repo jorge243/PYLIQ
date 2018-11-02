@@ -9,7 +9,7 @@ $ pip install PYLIQ
 from PYLIQ import analyze
 import os
 
-input_file = 'PYLIQ Input.xlsx'
+input_file = 'PYLIQ Input.xlsx' # https://github.com/jorge243/PYLIQ/raw/master/Example/PYLIQ%20Input.xlsx
 file_dir = os.path.dirname(__file__)
 
 analyze(input_file, file_dir)
