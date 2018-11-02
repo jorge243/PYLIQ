@@ -12,7 +12,7 @@ import os
 input_file = 'PYLIQ Input.xlsx'
 file_dir = os.path.dirname(__file__)
 
-analyze(input_file)
+analyze(input_file, file_dir)
 ```
  ### Features:
  - Fast and easy data input from excel file
