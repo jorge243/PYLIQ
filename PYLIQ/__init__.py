@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from PYLIQ_functions import single_plot, Youd_2002, SUMMARY_1, SUMMARY_2, SUMMARY_3
+from PYLIQ import single_plot, Youd_2002, SUMMARY_1, SUMMARY_2, SUMMARY_3
 from scipy.optimize import brentq
 import matplotlib.pyplot as plt
 import warnings
