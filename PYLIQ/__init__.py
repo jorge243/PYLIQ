@@ -5,7 +5,7 @@ from scipy.optimize import brentq
 import matplotlib.pyplot as plt
 import warnings
 import os
-
+name = "PYLIQ"
 
 def analyze(input_file):
     warnings.filterwarnings("ignore", category=RuntimeWarning)
