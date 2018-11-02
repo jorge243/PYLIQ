@@ -1,5 +1,5 @@
 # PYLIQ
-Free soil liquefaction analysis software from SPT data
+State of the art free soil liquefaction analysis software from SPT data
 ## Installation
 ```bash
 $ pip install PYLIQ
