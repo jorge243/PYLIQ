@@ -1,15 +1,14 @@
+from PYLIQ.PYLIQ_functions import Youd_2002, single_plot, SUMMARY_1, SUMMARY_2, SUMMARY_3
 import pandas as pd
 import numpy as np
-from PYLIQ import single_plot, Youd_2002, SUMMARY_1, SUMMARY_2, SUMMARY_3
 from scipy.optimize import brentq
 import matplotlib.pyplot as plt
 import warnings
 import os
 name = "PYLIQ"
 
-def analyze(input_file):
+def analyze(input_file, file_dir):
     warnings.filterwarnings("ignore", category=RuntimeWarning)
-    file_dir = os.path.dirname(__file__)
     output_dir = os.path.join(file_dir, 'PYLIQ Output/')
     if not os.path.isdir(output_dir):
         os.makedirs(output_dir)
